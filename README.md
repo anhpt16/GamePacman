@@ -3,7 +3,7 @@ Chương 2: Xây dựng chương trình
 Pacman là một trò chơi kinh điển trở thành biểu tượng của văn hóa đại chúng từ những năm 80. Trong trò chơi người chơi sẽ điều khiển Pacman trong một mê cung và ăn các chấm pac. Nếu người chơi ăn hết chấm pac thì sẽ được qua màn. Có 4 đối thủ là Blinky, Pinky, Inky và Clyde đi tự do trong mê cung và sẽ cố gắng để bắt Pacman. Nếu bị bắt Pacman sẽ bị mất mạng. Trong mê cung có các chấm tròn to (big pac) hay còn gọi là viên sức mạnh, khi ăn được các chấm này Pacman sẽ có khả năng ăn kẻ địch trong một khoảng thời gian ngắn. Khi đó kẻ địch sẽ chuyển sang màu lam, di chuyển chậm lại và chạy trốn khỏi Pacman. Khi một kẻ địch bị ăn, đôi mắt của chúng sẽ di chuyển về vị trí hồi sinh ở trung tâm màn hình, sau đó chung sẽ được hồi sinh lại như ban đầu.
 	Pacman: người chơi sẽ sử dụng cái phím mũi tên để giúp pacman chuyển hướng trong mê cung, giúp pacman tránh khỏi sự truy đuổi của 4 con ma và ăn hết các chấm pac. Mỗi khi bị giết bởi các con ma, Pacman sẽ bị trừ đi một mạng và khi không còn mạng nào trò chơi sẽ kết thúc.
 	Ghosts: 4 con ma sẽ có các trạng thái: đuổi bắt pacman, ngừng đuổi bắt và chạy khỏi pacman – khi panman ăn được viên sức mạnh. Khi bị pacman giết, nó sẽ chuyển thành hình đôi mắt và di chuyển về nơi hồi sinh và sẽ được hồi sinh sau một khoảng thời gian sau đó lại tiếp tục đuổi bắt pacman. Mỗi con ma sẽ được cài đặt các cách di chuyển khác nhau. 
-2.2. Các bước xây dựng trò chơi
+2.2. Các bước xây dựng trò chơi.
 Nhóm đã thực hiện các bước sau để xây dựng trò chơi
 +	Bước 1: Tạo mê cung và các chấm pac.
 +	Bước 2: Tạo pacman bao gồm các thuộc tính và chuyển động cho pacman.
